@@ -1,0 +1,103 @@
+html, body {
+      margin : 0;
+      padding : 0;
+      width : 100%;
+      height : 900px;
+      }
+#fond {
+      display : block;
+      width : 100%;
+      height : 100%;
+      }
+#conteneur {
+      position : absolute;
+      top : 0;
+      left : -380px;
+      margin-left : 50%;
+      width : 800px;
+}
+#deconnexion {
+    float : right;
+    
+}
+.clear {
+  clear: both;
+}
+h1 {
+    float: right;
+  font-size: 34px;
+  /*text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
+  font-family:Arial, Helvetica, sans-serif;
+  color: #6c247e;
+
+}
+h2 {
+  font-size: 28px;
+  /*text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
+  font-family:Arial, Helvetica, sans-serif;
+  color: #6c247e;
+  margin-top: 20px;
+}
+.entete {
+    border-width: 2px;
+    background-color: black;
+}
+.label {
+  font-size: 15px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.etude {
+    height: 25px;
+    margin: 15px 20px 15px 15px;
+}
+
+nav {
+    display: inline-block;
+    float: left;
+}
+.choix {
+    width: 250px;
+    height: 220px;
+}
+.taille {
+    width: 200px;
+}
+.taille1 {
+    width: 150px;
+}
+.taille3 {
+    width: 650px;
+}
+#formulaire {
+  
+     background-color:#FAFAFA;
+     padding:3%;
+     height: 30%;
+     width:35%;
+     margin-top:15%;
+     margin-left:29%;
+     display:block;
+     border:1px solid  #6c247e;
+ 
+ }
+fieldset {
+    padding:0 5% 5% 5%;
+    margin-bottom:3%;
+    border:1px solid  #6c247e;
+ }
+input{
+    padding:1%;
+    border-radius:2px;
+    width:75%;
+   /* box-shadow:1px 1px 1px #6c247e ;*/
+ }
+input[type=submit], input[type=reset] {
+     width:30%;
+     margin-top:4%;
+     margin-left:12%;
+     box-shadow:1px 1px 1px #6c247e;
+     cursor:pointer;
+ }
+ footer {
+    margin-top:15%;   
+}
