@@ -33,10 +33,14 @@ h1 {
 }
 h2 {
   font-size: 28px;
+  font-color: #a83cbb;
+
   /*text-shadow: -1px -1px #0c0, 1px 1px #060, -3px 0 4px #000;*/
   font-family:Arial, Helvetica, sans-serif;
   color: #6c247e;
   margin-top: 20px;
+  padding-left: 20px;
+  border-bottom: solid #000 1px;
 }
 .entete {
     border-width: 2px;
@@ -50,15 +54,39 @@ h2 {
     height: 25px;
     margin: 15px 20px 15px 15px;
 }
-
 nav {
-    display: inline-block;
     float: left;
+    background-color: gainsboro; 
+        
+}
+.type{
+    text-align: center;
 }
 .choix {
-    width: 250px;
-    height: 220px;
+    display: inline-block;
+    background-color: graytext;
+    color : white;
+    width: 399px;
+    height: 220px;  
+    overflow-y: scroll;
+    overflow-x:hidden;
 }
+.option {
+  background-color: gray; 
+  width: 300px;
+}
+.colonne1{
+    float: left;
+}
+.colonne2{
+    float: left;
+    position: absolute;
+    left: 400px;
+}
+.PlusGrand {
+    width: 798px;
+}
+
 .taille {
     width: 200px;
 }
@@ -69,7 +97,6 @@ nav {
     width: 650px;
 }
 #formulaire {
-  
      background-color:#FAFAFA;
      padding:3%;
      height: 30%;
@@ -77,27 +104,60 @@ nav {
      margin-top:15%;
      margin-left:29%;
      display:block;
+     border-radius: 10px;
      border:1px solid  #6c247e;
+ }
  
- }
-fieldset {
-    padding:0 5% 5% 5%;
-    margin-bottom:3%;
-    border:1px solid  #6c247e;
- }
-input{
-    padding:1%;
-    border-radius:2px;
-    width:75%;
-   /* box-shadow:1px 1px 1px #6c247e ;*/
- }
-input[type=submit], input[type=reset] {
-     width:30%;
-     margin-top:4%;
-     margin-left:12%;
-     box-shadow:1px 1px 1px #6c247e;
-     cursor:pointer;
- }
  footer {
     margin-top:15%;   
 }
+input[type=submit], input[type=reset] {
+    width:100px;
+    margin-left:5px;
+ }
+ .lancer {
+     width: 200px;
+ }
+ hr {
+     border-color: #3171D6; 
+  border-style: solid; 
+ }
+ .nouvelleEtude {
+     background-color:#f5e5f5;
+     height: 220px;
+     width:100%;
+     border-radius: 10px;
+     border:1px solid  #6c247e;
+ }
+ .grand {
+     height: 680px;
+ }
+ .titreNouvelleEtude{
+     font-size: 30px;
+ }
+ .date{
+     font-size: 20px;
+     padding-left: 20px;
+ }
+ .nom1 {
+     font-size: 20px;
+     padding-left: 20px;
+ }
+  .bouton {
+     font-size: 20px;
+     margin-left: 20px;
+
+ }
+ .etudeTerminée {
+     font-size: 20px;
+     margin-left: 20px;
+ }
+ .tailleTerminee {
+    height: 300px;
+   
+ }
+ .scroll{
+    height: 220px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+ }

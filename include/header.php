@@ -1,10 +1,32 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<?php 
+
+include_once 'Config.php';
+include_once 'classes/Equipe.php';
+include_once 'classes/Bacterie.php';
+include_once 'classes/Antibiotique.php';
+include_once 'classes/Etude.php';
+include_once 'classes/Molecule.php';
+include_once 'classes/Resultat.php';
+
+if (!isset($titre)) {
+    $titre = "Sans titre...?";
+}
+
+?>
+
 <html>
    <head>
         <meta charset="utf-8">
         <meta name="description" content="Test HTML5">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>AntibioPlus</title>
+        
+        <title><?php echo $titre ?></title>
 
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/style.css">
